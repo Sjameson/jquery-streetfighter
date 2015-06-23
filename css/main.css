@@ -9,7 +9,7 @@ body {
     position: relative; 
 	margin-top: 110px;
 	padding-left: 100px;
-	min-width: 1200px;
+	min-width: 1100px;
 	height: 590px;
 	z-index: 1;
 }
@@ -18,14 +18,14 @@ body {
 	float: left;
 	width: 526px;
 	height: 394px; 
-    bottom: 15%;
+    bottom: 20%;
     position: absolute;
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing {
 	width: 526px;
 	height: 394px; 
-	bottom: 15%;
+	bottom: 20%;
 }
 
 .ryu-ready, .ryu-throwing {

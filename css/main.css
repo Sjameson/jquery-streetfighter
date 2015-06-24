@@ -16,16 +16,20 @@ body {
 
 .ryu {
 	float: left;
-	width: 526px;
-	height: 394px; 
+	width:  60%;
+	height: 80%; 
     bottom: 20%;
     position: absolute;
+    /*work on adjusting the width and height sizes*/
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing {
-	width: 526px;
-	height: 394px; 
+	width:  40%;
+	height: 60%; 
 	bottom: 20%;
+	background-size: cover;
+    /*work on adjusting the width and height sizes*/
+	
 }
 
 .ryu-ready, .ryu-throwing {
@@ -34,7 +38,6 @@ body {
 
 .ryu-ready {
 	background-image: url('../images/ryu-ready-position.gif');
-
 } 
 
 .ryu-still {

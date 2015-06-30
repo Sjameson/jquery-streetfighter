@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
 body {
 	background-color: black;
 }
@@ -16,23 +18,22 @@ body {
 
 .ryu {
 	float: left;
-	width:  60%;
-	height: 80%; 
-    bottom: 20%;
+	width:  90%;
+	height: 76%; 
+    bottom: 8%;
     position: absolute;
     /*work on adjusting the width and height sizes*/
 }
 
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width:  40%;
-	height: 60%; 
-	bottom: 20%;
+	height: 85%; 
 	background-size: cover;
     /*work on adjusting the width and height sizes*/
 	
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none; 
 }
 
@@ -48,9 +49,14 @@ body {
 	background-image: url('../images/ryu-throwing-hadouken.png');
 }
 
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing , .ryu-cool {
 	background-repeat: no-repeat;
 }
+
 
 .hadouken {
 	background-image: url('../images/hadouken.gif');
@@ -59,14 +65,43 @@ body {
 	display: none;
 	position: absolute;
 	z-index: 10;
-    top: 200px;
+    top: 236px;
 	left: 480px;
 	float: left;
 }
 
+
+.instructions {
+  position: absolute;
+  left: 650px;
+  height: 425px;
+  width: 600px;
+  padding-top: 70px;
+ }
+
+
+.how-to p {
+  -webkit-text-stroke: black;
+   color: white;
+   text-shadow:
+     3px 2px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+	font-family: 'Oswald', Arial, sans-serif;
+	width: 48%;
+	font-size: 24px;
+	line-height: 40px;
+}
+
+.how-to p {
+	margin-left: 139px;
+}
+
 /* {
-	outline: red 1px solid;
-}*/
+	outline: red 1px solid;*/
+
 
 
 
